@@ -21,6 +21,7 @@ public class StackManager : MonoBehaviour
 
     public void AddBrick()
     {
+        AudioManager.Instance.PlayCollect();
         Transform lastBrick = _bricks[_bricks.Count - 1];
         Vector3 spawnPos = lastBrick.localPosition;
         spawnPos.y += _brickHeight;

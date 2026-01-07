@@ -65,6 +65,7 @@ public class GameManager : MonoBehaviour
         IsPlaying = false;
 
         Debug.Log("Show Win UI");
+        AudioManager.Instance.PlayWin();
         Invoke("ShowWinUI", 1f);
     }
 

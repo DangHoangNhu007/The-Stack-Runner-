@@ -23,6 +23,7 @@ public class ObstacleController : MonoBehaviour
                     ObstacleVFX vfx = GetComponent<ObstacleVFX>();
                     if (vfx != null)
                     {
+                        AudioManager.Instance.PlayCrash();
                         vfx.Shatter(); 
                     }
                     else
@@ -35,6 +36,7 @@ public class ObstacleController : MonoBehaviour
                     PlayerDeath playerDeath = other.GetComponent<PlayerDeath>();
                     if (playerDeath != null)
                     {
+                        AudioManager.Instance.PlayCrash();
                         playerDeath.Die();
                     }
                 }
