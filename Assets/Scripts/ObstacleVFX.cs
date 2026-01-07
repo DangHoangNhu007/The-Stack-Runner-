@@ -7,6 +7,9 @@ public class ObstacleVFX : MonoBehaviour
     public float explosionForce = 10f; 
     public float scaleSize = 0.5f; 
 
+    [Header("Prefab")]  
+    public GameObject shatterPiecePrefab;
+
     public void Shatter()
     {
 
@@ -32,7 +35,7 @@ public class ObstacleVFX : MonoBehaviour
 
     void SpawnPiece(Color color)
     {
-        GameObject piece = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        GameObject piece = Instantiate(shatterPiecePrefab);
     
         Vector3 randomPos = transform.position + new Vector3(
             Random.Range(-0.5f, 0.5f), 

@@ -123,3 +123,4 @@ MonoBehaviour:
   pieceCount: 8
   explosionForce: 10
   scaleSize: 0.5
+  shatterPiecePrefab: {fileID: 4692515466902996299, guid: 56544aa4b514f8345bacd3bf53567d83, type: 3}
