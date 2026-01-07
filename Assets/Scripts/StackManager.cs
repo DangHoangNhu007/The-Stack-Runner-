@@ -8,7 +8,7 @@ public class StackManager : MonoBehaviour
     public Transform blockContainer; 
 
     [SerializeField] private List<Transform> _bricks = new List<Transform>();
-    private float _brickHeight = 1f; 
+    private float _brickHeight = 0.715f; 
 
     void Start()
     {
