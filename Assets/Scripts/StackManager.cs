@@ -24,6 +24,7 @@ public class StackManager : MonoBehaviour
         Transform lastBrick = _bricks[_bricks.Count - 1];
         Vector3 spawnPos = lastBrick.localPosition;
         spawnPos.y += _brickHeight;
+        spawnPos.z = -0.5f;
 
         Transform newBrick = Instantiate(brickPrefab, blockContainer);
         newBrick.localPosition = spawnPos;

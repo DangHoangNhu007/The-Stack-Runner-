@@ -1421,6 +1421,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 707187040}
   m_CullTransparentMesh: 1
+--- !u!1 &720875331 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7752030738778784939, guid: 038abbe0be4259c4e80804d1ec4f550a, type: 3}
+  m_PrefabInstance: {fileID: 385184616}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &770413853
 GameObject:
   m_ObjectHideFlags: 0
@@ -1684,6 +1689,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &969005110 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7948660828100032839, guid: 038abbe0be4259c4e80804d1ec4f550a, type: 3}
+  m_PrefabInstance: {fileID: 385184616}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &990234565
 GameObject:
   m_ObjectHideFlags: 0
@@ -2763,6 +2773,11 @@ MonoBehaviour:
   scoreText: {fileID: 1827040317}
   player: {fileID: 2029888082}
   stackManager: {fileID: 2029888083}
+--- !u!1 &1593030662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4819223349682164798, guid: 038abbe0be4259c4e80804d1ec4f550a, type: 3}
+  m_PrefabInstance: {fileID: 385184616}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1594505727
 GameObject:
   m_ObjectHideFlags: 0
@@ -2975,6 +2990,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1609095923}
   m_CullTransparentMesh: 1
+--- !u!1 &1774505312 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2397621468118695034, guid: 038abbe0be4259c4e80804d1ec4f550a, type: 3}
+  m_PrefabInstance: {fileID: 385184616}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1812945920
 GameObject:
   m_ObjectHideFlags: 0
@@ -3802,6 +3822,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1914762322}
   m_CullTransparentMesh: 1
+--- !u!1 &2024805206 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3664811705211809293, guid: 038abbe0be4259c4e80804d1ec4f550a, type: 3}
+  m_PrefabInstance: {fileID: 385184616}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2029888080
 GameObject:
   m_ObjectHideFlags: 0
@@ -3933,7 +3958,13 @@ MonoBehaviour:
   cubeCount: 10
   explosionForce: 500
   explosionRadius: 2
-  debrisMaterial: {fileID: -6538903991835684241, guid: 038abbe0be4259c4e80804d1ec4f550a, type: 3}
+  debrisMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  listPlayerPart:
+  - {fileID: 1593030662}
+  - {fileID: 1774505312}
+  - {fileID: 720875331}
+  - {fileID: 2024805206}
+  - {fileID: 969005110}
 --- !u!1001 &2047745131
 PrefabInstance:
   m_ObjectHideFlags: 0
