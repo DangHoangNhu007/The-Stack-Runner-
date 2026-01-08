@@ -44,5 +44,6 @@ The project focuses on **smooth input handling**, **game loop architecture**, an
 ---
 **Developed by [Dang Hoang Nhu]**
 *   [https://www.linkedin.com/in/%C4%91%E1%BA%B7ng-nhu-257b09317/]*
+![Image](https://github.com/user-attachments/assets/c2e7ac60-22f3-4969-9307-57f0025cbdb1)
 
 ![Demo Gameplay](./Media/animation-2.gif)
