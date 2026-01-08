@@ -2,7 +2,7 @@
 
 > A fast-paced hypercasual runner game built with Unity, featuring stacking mechanics, swerve controls, and procedural level generation.
 
-![Demo Gameplay](./Media/animation.gif)
+![Image](https://github.com/user-attachments/assets/e2f557b3-2c10-40e3-9d36-b7b148af5d9c)
 
 ## 🎮 About The Project
 This project serves as a technical demonstration of **core hypercasual mechanics**. The goal is to navigate a character through obstacles, stacking up blocks to increase height and survive wall collisions.
